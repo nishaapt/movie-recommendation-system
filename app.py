@@ -352,7 +352,7 @@ with c2:
 st.markdown("</div>", unsafe_allow_html=True)
 
 
-# RESULTS
+
 if btn:
     with st.spinner("Finding the best matches..."):
         names, posters = recommend(selected_movie)
